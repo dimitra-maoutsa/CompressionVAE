@@ -25,7 +25,7 @@ setuptools.setup(
         'matplotlib',
         'joblib',
         'tqdm',
-        'tensorflow>=1,<2'
+        'tensorflow>=1'
     ],
     keywords='vae variational autoencoder manifold dimensionality reduction compression tensorflow'
 )
