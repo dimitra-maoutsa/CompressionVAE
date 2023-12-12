@@ -177,7 +177,7 @@ For more arguments/details, for example controlling the details of the learning 
 
 Alternatively to providing the input data `X` as a single numpy array, as done with t-SNE and UMAP, CVAE also allows for much larger datasets that do not fit into a single array.
 
-To prepare such a dataset, create a new directory, e.g. `'~/my_dataset'`, and save the training data as individual npy files per example in this directory. 
+To prepare such a dataset, create a new directory, e.g. `'~/my_dataset'`, and save the training data as individual npy files per example in this directory
 
 (Note: the data can also be saved in nested sub-directories, for example one directory per category. CVAE will look through the entire directory tree for npy files.)
 
